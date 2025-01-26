@@ -1,14 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./output.css" rel="stylesheet">
+    <link href="/src/output.css" rel="stylesheet">
     <title>Home</title>
 </head>
-<body>
-    <h1 class="">
-        Hello world!
-      </h1>
+
+<body class="">
+    <header class="h-full w-full">
+        <div class="flex flex-row"> <!-- Iconos -->
+            <div class="flex flex-row gap-4 p-5 w-full "><!-- Iconos  -->
+                <img src="/img/user-32.png" alt="user">
+                <img src="/img/bolso-32.png" alt="bolso">
+                <img src="/img/corazon-32.png" alt="corazon">
+            </div>
+            <div class="flex justify-center items-center w-full "><!-- Logo -->
+                <img src="/img/tienda-s.png" alt="sumila">
+            </div>
+            <div class="flex justify-end items-center p-5 w-full "> <!-- Buscador -->
+                <div class="w-full max-w-sm min-w-[200px]">
+                    <div class="relative">
+                        <input
+                            class="w-full bg-transparent placeholder:text-slate-400 text-slate-700 text-sm border border-slate-800 rounded-md pl-3 pr-28 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"
+                            placeholder="Buscar" />
+                        <button
+                            class="absolute top-1 right-1 flex items-center rounded bg-slate-800 py-1 px-2.5 border border-transparent text-center text-sm text-white transition-all shadow-sm hover:shadow focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                            type="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-4 h-4 mr-2">
+                                <path fill-rule="evenodd"
+                                    d="M10.5 3.75a6.75 6.75 0 1 0 0 13.5 6.75 6.75 0 0 0 0-13.5ZM2.25 10.5a8.25 8.25 0 1 1 14.59 5.28l4.69 4.69a.75.75 0 1 1-1.06 1.06l-4.69-4.69A8.25 8.25 0 0 1 2.25 10.5Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            Search
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-row"><!-- Secciones del menu -->
+            <div class="flex justify-center items-center w-full">
+                <h1 class="text-lg font-medium">Nueva colección </h1>
+            </div>
+            <div class="flex justify-center items-center w-full">
+                <h1 class="text-lg font-medium">Colecciones</h1>
+            </div>
+            <div class="flex justify-center items-center w-full">
+                <h1 class="text-lg font-medium">Hombre</h1>
+            </div>
+            <div class="flex justify-center items-center w-full">
+                <h1 class="text-lg font-medium">Mujer</h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        
+    </main>
 </body>
+
 </html>
